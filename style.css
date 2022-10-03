@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    display: block;
+    background-color: pink;
+    font-family: Franklin Gothic Medium;
+    align-items: right;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/PortfolioPic.jpg);
+    image-resolution: 5184-3456 px;
+    background-size: 100%;
+    background-position: center;
+    padding: 0px 0px 100px 0px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    font-style: normal;
+    font-family: Franklin Gothic Medium;
+    color: light blue;
+    margin: left 40vw;
+}
+
+.navBar {
+    margin-left: 40vw;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: right;
+    justify-content: space-between;
+    margin-right: auto;
+    padding: 45px;
+    color: #5377cd;
+    background-color: #d3927483;
+}
+
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    color: #5494e1;
+    margin: 10px 20px;
+    align-items: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.navBar ul li a:hover {
+    font-feature-settings: ;
+    font-weight: bold;
+}
+
+.LogoPortfolio {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: right;
+}
+
+.introduction {
+    margin-left: 1%;
+    margin-top: 10%;
+    color: white;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+}
+
+.introduction h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.Introtransbox {
+    color: aquamarine;
+    opacity: 20px;
+}
+
+.imageOne {
+    background-image: url("./images/AquaVase.jpeg");
+    align-self: right;
+    border: 2px solid yellow;
+    max-width: 35vw;
+    /* max-height: 20vh; */
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain
+    
+}
+
+.imageTwo {
+    background-image: url(images/OwlVase.jpeg);
+    align-self: right;
+    border: 2px solid yellow;
+    max-width: 35vw;
+    /* max-height: 20vh; */
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain
+}
+
+.imageThree {
+    background-image: url(images/68514651044__F361D468-010F-44E5-8491-1DE0A24D3C18.jpeg);
+    align-self: right;
+    border: 2px solid yellow;
+    max-width: 35vw;
+    /* max-height: 20vh; */
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+.imageFour {
+    background-image: url(images/IMG_1166.jpeg);
+    align-self: right;
+    border: 2px solid yellow;
+    max-width: 35vw;
+    /* max-height: 20vh; */
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+}
+
+.imagesFive {
+    background-image: url(images/ColoredClayCreations.png);
+    align-self: right;
+    border: 2px solid yellow;
+    max-width: 35vw;
+    /* max-height: 20vh; */
+    min-height: 45vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain
+}
+
+.footer a {
+    color:rgba(220, 193, 193, 0.801);
+    font-size: 20pt;
+    font-family: "Arial";
+    text-decoration: underline;
+    padding-top:10px;
+    padding-left:20px;
+   justify-content: right;
+}
